@@ -1,0 +1,189 @@
+/*
+    STOCKED | INVENTORY MAGEMENT
+    # 2021 - today
+    # created by Adrián Araque
+*/
+
+/* 
+    FONTS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    background-color: #CAC4CE;
+}
+
+.palette{
+    color: #242038;
+    color: #CAC4CE;
+    color: #9067C6;
+    color: #8D86C9;
+    color: #F7ECE1;
+}
+
+
+
+
+/* 
+    HEADER
+*/
+header{
+    background-color: #242038;
+    color: #F7ECE1;
+    text-align: center;
+
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+
+
+/* 
+    NAV
+*/
+.nav-list{
+    display: flex;
+
+    margin-inline: 20px;
+}
+
+.nav-list li a{
+    display: block;
+    margin-inline: 10px;
+
+    text-decoration: none;
+    color: #F7ECE1;
+}
+
+.nav-list li a:hover{
+    color: #CAC4CE;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+
+    margin-inline: 20px;
+}
+
+.brand a{
+    text-decoration: none;
+}
+
+.brand h1{
+    font-size: 30px;
+}
+
+/*
+    FORM
+*/
+form a{
+    display: block;
+    margin-block: 5px;
+    
+    color:#F7ECE1;
+}
+
+.form{
+    background-color: #9067C6;
+    border-radius: 10px;
+
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-block: 50px;
+}
+
+.form h3{
+    font-size: 20px;
+    text-align: center;
+    color: #F7ECE1;
+
+    margin-block: 10px;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.field{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    display: block;
+
+    border-radius: 4px;
+}
+
+.form-cont{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*
+    ICON
+*/
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img{
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+
+/*
+    FOOTER
+*/
+footer{
+    background-color: #242038;
+    color: #F7ECE1;
+    text-align: center;
+
+    width:100%;
+    height: 100%;
+}
+
+
+
+/*
+    BUTTONS
+*/
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+
+    color: #242038;
+    font-weight: 600;
+}
+
+.btn-form{
+    width: 100%;
+    margin-bottom: 8px;
+}
